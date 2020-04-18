@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70C3F1AFBAE54BAAC5C486F1 /* Pods_a171_ios_pemula_submissionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED1CAFCF203A4CE09968E8D /* Pods_a171_ios_pemula_submissionTests.framework */; };
+		79E056EFFB164E0AD88BF43C /* Pods_a171_ios_pemula_submission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6313907201EEEA25B0035A /* Pods_a171_ios_pemula_submission.framework */; };
 		D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B810E244AE4D30091A7C9 /* AppDelegate.swift */; };
 		D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */; };
 		D75B8113244AE4D30091A7C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8112244AE4D30091A7C9 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		D75B811E244AE4D60091A7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */; };
 		D75B8129244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8128244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift */; };
 		D75B8134244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */; };
+		E22B064458382D1630D118BA /* Pods_a171_ios_pemula_submissionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7D234A3B43EA74B52BC42D /* Pods_a171_ios_pemula_submissionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "a171-ios-pemula-submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34929DF4D4AF8064853A3A63 /* Pods-a171-ios-pemula-submission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submission.debug.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission.debug.xcconfig"; sourceTree = "<group>"; };
+		36D6DEB1933A2E8394C1C069 /* Pods-a171-ios-pemula-submissionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionTests.release.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionTests/Pods-a171-ios-pemula-submissionTests.release.xcconfig"; sourceTree = "<group>"; };
+		5746171C3CFACA279D6DB65F /* Pods-a171-ios-pemula-submission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submission.release.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission.release.xcconfig"; sourceTree = "<group>"; };
+		6351AE0BE6B158ADA0754670 /* Pods-a171-ios-pemula-submissionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionUITests.debug.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionUITests/Pods-a171-ios-pemula-submissionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6313907201EEEA25B0035A /* Pods_a171_ios_pemula_submission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a171_ios_pemula_submission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED1CAFCF203A4CE09968E8D /* Pods_a171_ios_pemula_submissionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a171_ios_pemula_submissionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7D234A3B43EA74B52BC42D /* Pods_a171_ios_pemula_submissionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a171_ios_pemula_submissionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B5644F46827554C49C8437 /* Pods-a171-ios-pemula-submissionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionUITests.release.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionUITests/Pods-a171-ios-pemula-submissionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D75B810B244AE4D30091A7C9 /* Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B810E244AE4D30091A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D75B8112244AE4D30091A7C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "a171-ios-pemula-submissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a171_ios_pemula_submissionUITests.swift; sourceTree = "<group>"; };
 		D75B8135244AE4D60091A7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8DBE1707484F16F9FB817F /* Pods-a171-ios-pemula-submissionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionTests.debug.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionTests/Pods-a171-ios-pemula-submissionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E056EFFB164E0AD88BF43C /* Pods_a171_ios_pemula_submission.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C3F1AFBAE54BAAC5C486F1 /* Pods_a171_ios_pemula_submissionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22B064458382D1630D118BA /* Pods_a171_ios_pemula_submissionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A68F1B2173E90AE85853F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6313907201EEEA25B0035A /* Pods_a171_ios_pemula_submission.framework */,
+				8ED1CAFCF203A4CE09968E8D /* Pods_a171_ios_pemula_submissionTests.framework */,
+				9E7D234A3B43EA74B52BC42D /* Pods_a171_ios_pemula_submissionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E3C2BD462099D7E2CC33F0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34929DF4D4AF8064853A3A63 /* Pods-a171-ios-pemula-submission.debug.xcconfig */,
+				5746171C3CFACA279D6DB65F /* Pods-a171-ios-pemula-submission.release.xcconfig */,
+				FC8DBE1707484F16F9FB817F /* Pods-a171-ios-pemula-submissionTests.debug.xcconfig */,
+				36D6DEB1933A2E8394C1C069 /* Pods-a171-ios-pemula-submissionTests.release.xcconfig */,
+				6351AE0BE6B158ADA0754670 /* Pods-a171-ios-pemula-submissionUITests.debug.xcconfig */,
+				D5B5644F46827554C49C8437 /* Pods-a171-ios-pemula-submissionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D75B8102244AE4D30091A7C9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,13 +124,15 @@
 				D75B8127244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */,
 				D75B8132244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */,
 				D75B810C244AE4D30091A7C9 /* Products */,
+				4E3C2BD462099D7E2CC33F0C /* Pods */,
+				4A68F1B2173E90AE85853F5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D75B810C244AE4D30091A7C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */,
+				D75B810B244AE4D30091A7C9 /* Submission.app */,
 				D75B8124244AE4D60091A7C9 /* a171-ios-pemula-submissionTests.xctest */,
 				D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */,
 			);
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D75B8138244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submission" */;
 			buildPhases = (
+				7F23CBEFEF5F637FB0C42340 /* [CP] Check Pods Manifest.lock */,
 				D75B8107244AE4D30091A7C9 /* Sources */,
 				D75B8108244AE4D30091A7C9 /* Frameworks */,
 				D75B8109244AE4D30091A7C9 /* Resources */,
+				6CBA388CB76A5624BB7F5F4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,13 +191,14 @@
 			);
 			name = "a171-ios-pemula-submission";
 			productName = "a171-ios-pemula-submission";
-			productReference = D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */;
+			productReference = D75B810B244AE4D30091A7C9 /* Submission.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D75B8123244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D75B813B244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionTests" */;
 			buildPhases = (
+				151052E9F2E5072E93F10E9E /* [CP] Check Pods Manifest.lock */,
 				D75B8120244AE4D60091A7C9 /* Sources */,
 				D75B8121244AE4D60091A7C9 /* Frameworks */,
 				D75B8122244AE4D60091A7C9 /* Resources */,
@@ -173,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D75B813E244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionUITests" */;
 			buildPhases = (
+				2AAC86CEDF0687E643A03AE7 /* [CP] Check Pods Manifest.lock */,
 				D75B812B244AE4D60091A7C9 /* Sources */,
 				D75B812C244AE4D60091A7C9 /* Frameworks */,
 				D75B812D244AE4D60091A7C9 /* Resources */,
@@ -256,6 +301,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		151052E9F2E5072E93F10E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a171-ios-pemula-submissionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AAC86CEDF0687E643A03AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a171-ios-pemula-submissionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBA388CB76A5624BB7F5F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F23CBEFEF5F637FB0C42340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a171-ios-pemula-submission-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D75B8107244AE4D30091A7C9 /* Sources */ = {
@@ -436,6 +567,7 @@
 		};
 		D75B8139244AE4D60091A7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34929DF4D4AF8064853A3A63 /* Pods-a171-ios-pemula-submission.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,7 +578,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Submission;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +586,7 @@
 		};
 		D75B813A244AE4D60091A7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5746171C3CFACA279D6DB65F /* Pods-a171-ios-pemula-submission.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,7 +597,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Submission;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +605,7 @@
 		};
 		D75B813C244AE4D60091A7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8DBE1707484F16F9FB817F /* Pods-a171-ios-pemula-submissionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,12 +622,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a171-ios-pemula-submission.app/a171-ios-pemula-submission";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Submission.app/Submission";
 			};
 			name = Debug;
 		};
 		D75B813D244AE4D60091A7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D6DEB1933A2E8394C1C069 /* Pods-a171-ios-pemula-submissionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,12 +645,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a171-ios-pemula-submission.app/a171-ios-pemula-submission";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Submission.app/Submission";
 			};
 			name = Release;
 		};
 		D75B813F244AE4D60091A7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6351AE0BE6B158ADA0754670 /* Pods-a171-ios-pemula-submissionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +672,7 @@
 		};
 		D75B8140244AE4D60091A7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B5644F46827554C49C8437 /* Pods-a171-ios-pemula-submissionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

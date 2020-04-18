@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import a171_ios_pemula_submission
+@testable import Submission
 
 class a171_ios_pemula_submissionTests: XCTestCase {
 
