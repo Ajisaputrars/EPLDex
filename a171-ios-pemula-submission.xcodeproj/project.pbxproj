@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B810E244AE4D30091A7C9 /* AppDelegate.swift */; };
+		D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */; };
+		D75B8113244AE4D30091A7C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8112244AE4D30091A7C9 /* ViewController.swift */; };
+		D75B8116244AE4D30091A7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75B8114244AE4D30091A7C9 /* Main.storyboard */; };
+		D75B8119244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D75B8117244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld */; };
+		D75B811B244AE4D60091A7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75B811A244AE4D60091A7C9 /* Assets.xcassets */; };
+		D75B811E244AE4D60091A7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */; };
+		D75B8129244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8128244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift */; };
+		D75B8134244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75B8125244AE4D60091A7C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75B8103244AE4D30091A7C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75B810A244AE4D30091A7C9;
+			remoteInfo = "a171-ios-pemula-submission";
+		};
+		D75B8130244AE4D60091A7C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75B8103244AE4D30091A7C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75B810A244AE4D30091A7C9;
+			remoteInfo = "a171-ios-pemula-submission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "a171-ios-pemula-submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B810E244AE4D30091A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D75B8112244AE4D30091A7C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D75B8115244AE4D30091A7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D75B8118244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = a171_ios_pemula_submission.xcdatamodel; sourceTree = "<group>"; };
+		D75B811A244AE4D60091A7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75B811D244AE4D60091A7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D75B811F244AE4D60091A7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75B8124244AE4D60091A7C9 /* a171-ios-pemula-submissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "a171-ios-pemula-submissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B8128244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a171_ios_pemula_submissionTests.swift; sourceTree = "<group>"; };
+		D75B812A244AE4D60091A7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "a171-ios-pemula-submissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a171_ios_pemula_submissionUITests.swift; sourceTree = "<group>"; };
+		D75B8135244AE4D60091A7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75B8108244AE4D30091A7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B8121244AE4D60091A7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B812C244AE4D60091A7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D75B8102244AE4D30091A7C9 = {
+			isa = PBXGroup;
+			children = (
+				D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */,
+				D75B8127244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */,
+				D75B8132244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */,
+				D75B810C244AE4D30091A7C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D75B810C244AE4D30091A7C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */,
+				D75B8124244AE4D60091A7C9 /* a171-ios-pemula-submissionTests.xctest */,
+				D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
+			isa = PBXGroup;
+			children = (
+				D75B810E244AE4D30091A7C9 /* AppDelegate.swift */,
+				D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */,
+				D75B8112244AE4D30091A7C9 /* ViewController.swift */,
+				D75B8114244AE4D30091A7C9 /* Main.storyboard */,
+				D75B811A244AE4D60091A7C9 /* Assets.xcassets */,
+				D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */,
+				D75B811F244AE4D60091A7C9 /* Info.plist */,
+				D75B8117244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld */,
+			);
+			path = "a171-ios-pemula-submission";
+			sourceTree = "<group>";
+		};
+		D75B8127244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D75B8128244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift */,
+				D75B812A244AE4D60091A7C9 /* Info.plist */,
+			);
+			path = "a171-ios-pemula-submissionTests";
+			sourceTree = "<group>";
+		};
+		D75B8132244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */,
+				D75B8135244AE4D60091A7C9 /* Info.plist */,
+			);
+			path = "a171-ios-pemula-submissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75B8138244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submission" */;
+			buildPhases = (
+				D75B8107244AE4D30091A7C9 /* Sources */,
+				D75B8108244AE4D30091A7C9 /* Frameworks */,
+				D75B8109244AE4D30091A7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "a171-ios-pemula-submission";
+			productName = "a171-ios-pemula-submission";
+			productReference = D75B810B244AE4D30091A7C9 /* a171-ios-pemula-submission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D75B8123244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75B813B244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionTests" */;
+			buildPhases = (
+				D75B8120244AE4D60091A7C9 /* Sources */,
+				D75B8121244AE4D60091A7C9 /* Frameworks */,
+				D75B8122244AE4D60091A7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75B8126244AE4D60091A7C9 /* PBXTargetDependency */,
+			);
+			name = "a171-ios-pemula-submissionTests";
+			productName = "a171-ios-pemula-submissionTests";
+			productReference = D75B8124244AE4D60091A7C9 /* a171-ios-pemula-submissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D75B812E244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75B813E244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionUITests" */;
+			buildPhases = (
+				D75B812B244AE4D60091A7C9 /* Sources */,
+				D75B812C244AE4D60091A7C9 /* Frameworks */,
+				D75B812D244AE4D60091A7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75B8131244AE4D60091A7C9 /* PBXTargetDependency */,
+			);
+			name = "a171-ios-pemula-submissionUITests";
+			productName = "a171-ios-pemula-submissionUITests";
+			productReference = D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75B8103244AE4D30091A7C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Aji Saputra Raka Siwi";
+				TargetAttributes = {
+					D75B810A244AE4D30091A7C9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D75B8123244AE4D60091A7C9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D75B810A244AE4D30091A7C9;
+					};
+					D75B812E244AE4D60091A7C9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D75B810A244AE4D30091A7C9;
+					};
+				};
+			};
+			buildConfigurationList = D75B8106244AE4D30091A7C9 /* Build configuration list for PBXProject "a171-ios-pemula-submission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75B8102244AE4D30091A7C9;
+			productRefGroup = D75B810C244AE4D30091A7C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */,
+				D75B8123244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */,
+				D75B812E244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75B8109244AE4D30091A7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75B811E244AE4D60091A7C9 /* LaunchScreen.storyboard in Resources */,
+				D75B811B244AE4D60091A7C9 /* Assets.xcassets in Resources */,
+				D75B8116244AE4D30091A7C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B8122244AE4D60091A7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B812D244AE4D60091A7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75B8107244AE4D30091A7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75B8113244AE4D30091A7C9 /* ViewController.swift in Sources */,
+				D75B8119244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld in Sources */,
+				D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */,
+				D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B8120244AE4D60091A7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75B8129244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B812B244AE4D60091A7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75B8134244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D75B8126244AE4D60091A7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */;
+			targetProxy = D75B8125244AE4D60091A7C9 /* PBXContainerItemProxy */;
+		};
+		D75B8131244AE4D60091A7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */;
+			targetProxy = D75B8130244AE4D60091A7C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D75B8114244AE4D30091A7C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75B8115244AE4D30091A7C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75B811D244AE4D60091A7C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75B8136244AE4D60091A7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D75B8137244AE4D60091A7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D75B8139244AE4D60091A7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D75B813A244AE4D60091A7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D75B813C244AE4D60091A7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a171-ios-pemula-submission.app/a171-ios-pemula-submission";
+			};
+			name = Debug;
+		};
+		D75B813D244AE4D60091A7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a171-ios-pemula-submission.app/a171-ios-pemula-submission";
+			};
+			name = Release;
+		};
+		D75B813F244AE4D60091A7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "a171-ios-pemula-submission";
+			};
+			name = Debug;
+		};
+		D75B8140244AE4D60091A7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = "a171-ios-pemula-submissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "a171-ios-pemula-submission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75B8106244AE4D30091A7C9 /* Build configuration list for PBXProject "a171-ios-pemula-submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75B8136244AE4D60091A7C9 /* Debug */,
+				D75B8137244AE4D60091A7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75B8138244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75B8139244AE4D60091A7C9 /* Debug */,
+				D75B813A244AE4D60091A7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75B813B244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75B813C244AE4D60091A7C9 /* Debug */,
+				D75B813D244AE4D60091A7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75B813E244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75B813F244AE4D60091A7C9 /* Debug */,
+				D75B8140244AE4D60091A7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D75B8117244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D75B8118244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodel */,
+			);
+			currentVersion = D75B8118244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodel */;
+			path = a171_ios_pemula_submission.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D75B8103244AE4D30091A7C9 /* Project object */;
+}
