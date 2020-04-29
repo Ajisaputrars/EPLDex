@@ -53,6 +53,7 @@
 		D5B5644F46827554C49C8437 /* Pods-a171-ios-pemula-submissionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionUITests.release.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionUITests/Pods-a171-ios-pemula-submissionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D72EF36824592CD6009F5BEF /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		D72EF36F24593879009F5BEF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		D72EF3712459BD37009F5BEF /* Submission.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Submission.entitlements; sourceTree = "<group>"; };
 		D75B810B244AE4D30091A7C9 /* Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B810E244AE4D30091A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 		D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
 			isa = PBXGroup;
 			children = (
+				D72EF3712459BD37009F5BEF /* Submission.entitlements */,
 				D75B810E244AE4D30091A7C9 /* AppDelegate.swift */,
 				D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */,
 				D72EF36C245937DB009F5BEF /* Model */,
@@ -617,6 +619,7 @@
 			baseConfigurationReference = 34929DF4D4AF8064853A3A63 /* Pods-a171-ios-pemula-submission.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "a171-ios-pemula-submission/Submission.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y224ZS8GH;
 				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
@@ -626,6 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
 				PRODUCT_NAME = Submission;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -636,6 +640,7 @@
 			baseConfigurationReference = 5746171C3CFACA279D6DB65F /* Pods-a171-ios-pemula-submission.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "a171-ios-pemula-submission/Submission.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y224ZS8GH;
 				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
@@ -645,6 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ajisaputrars.a171-ios-pemula-submission";
 				PRODUCT_NAME = Submission;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
