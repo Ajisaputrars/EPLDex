@@ -9,10 +9,16 @@
 import UIKit
 
 class DetailController: UIViewController {
+    
+    private var detailView: DetailView!
+    var teamDetail: TeamList!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.detailView = DetailView(frame: self.view.frame)
+        self.view = self.detailView
         
-        self.view.backgroundColor = .white
+        self.detailView.configureView(teamList: self.teamDetail)
+        self.title = self.teamDetail.strTeam
     }
 }

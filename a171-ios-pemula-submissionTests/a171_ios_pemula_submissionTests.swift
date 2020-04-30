@@ -20,15 +20,14 @@ class a171_ios_pemula_submissionTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        if let path = Bundle.main.path(forResource: "Sports", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let teams = try! Utils.teamJsonParser(data: data)
+                print(teams)
+            } catch let error {
+                print(error.localizedDescription)
+            }
         }
     }
-
 }

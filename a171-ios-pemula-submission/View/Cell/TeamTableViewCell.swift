@@ -40,8 +40,13 @@ class TeamTableViewCell: UITableViewCell {
 
     }
     
+    func configureCell(teamList: TeamList){
+        self.teamNameLabel.text = teamList.strTeam
+        self.teamImageView.kf.setImage(with: URL(string: teamList.strTeamBadge!))
+    }
+    
     func setupView(){
-        self.backgroundColor = .white
+        self.backgroundColor = .systemBackground
         
         self.addSubview(teamImageView)
         self.addSubview(teamNameLabel)
@@ -53,7 +58,6 @@ class TeamTableViewCell: UITableViewCell {
             make.bottom.equalTo(self.safeAreaLayoutGuide).offset(-16)
             make.size.equalTo(CGSize(width: 50, height: 50)).priority(999)
         }
-        teamImageView.backgroundColor = .green
         
         self.teamNameLabel.snp.makeConstraints { (make) in
             make.top.equalTo(self.safeAreaLayoutGuide).offset(16)

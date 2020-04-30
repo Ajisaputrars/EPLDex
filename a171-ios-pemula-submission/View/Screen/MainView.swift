@@ -24,7 +24,6 @@ class MainView: BaseView {
         
         self.teamTableView.snp.makeConstraints { (make) in
             make.top.left.right.bottom.equalTo(self)
-//            make.center.equalTo(self)
         }
     }
 }

@@ -7,6 +7,7 @@ target 'a171-ios-pemula-submission' do
 
   # Pods for a171-ios-pemula-submission
   
+  pod 'Kingfisher'
   pod 'SnapKit'
   target 'a171-ios-pemula-submissionTests' do
     inherit! :search_paths

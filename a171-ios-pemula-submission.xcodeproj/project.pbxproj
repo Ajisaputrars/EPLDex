@@ -11,6 +11,9 @@
 		79E056EFFB164E0AD88BF43C /* Pods_a171_ios_pemula_submission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6313907201EEEA25B0035A /* Pods_a171_ios_pemula_submission.framework */; };
 		D72EF36924592CD6009F5BEF /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF36824592CD6009F5BEF /* TeamTableViewCell.swift */; };
 		D72EF37024593879009F5BEF /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF36F24593879009F5BEF /* DetailController.swift */; };
+		D72EF3732459BFC8009F5BEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3722459BFC8009F5BEF /* DetailView.swift */; };
+		D72EF3752459CE26009F5BEF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3742459CE26009F5BEF /* Team.swift */; };
+		D72EF3782459CEBF009F5BEF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3772459CEBF009F5BEF /* Utils.swift */; };
 		D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B810E244AE4D30091A7C9 /* AppDelegate.swift */; };
 		D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */; };
 		D75B8113244AE4D30091A7C9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8112244AE4D30091A7C9 /* MainController.swift */; };
@@ -19,6 +22,8 @@
 		D75B811E244AE4D60091A7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */; };
 		D75B8129244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8128244AE4D60091A7C9 /* a171_ios_pemula_submissionTests.swift */; };
 		D75B8134244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */; };
+		D799213C245A7AAD002BF212 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799213B245A7AAD002BF212 /* ProfileController.swift */; };
+		D799213E245A7AC3002BF212 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799213D245A7AC3002BF212 /* ProfileView.swift */; };
 		D7A391592452FB710000EB40 /* Sports.json in Resources */ = {isa = PBXBuildFile; fileRef = D7A391582452FB710000EB40 /* Sports.json */; };
 		D7A3915B2457EBD50000EB40 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3915A2457EBD50000EB40 /* MainView.swift */; };
 		D7A3915D2457EBE80000EB40 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3915C2457EBE80000EB40 /* BaseView.swift */; };
@@ -54,6 +59,9 @@
 		D72EF36824592CD6009F5BEF /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		D72EF36F24593879009F5BEF /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		D72EF3712459BD37009F5BEF /* Submission.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Submission.entitlements; sourceTree = "<group>"; };
+		D72EF3722459BFC8009F5BEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D72EF3742459CE26009F5BEF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		D72EF3772459CEBF009F5BEF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D75B810B244AE4D30091A7C9 /* Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B810E244AE4D30091A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +76,8 @@
 		D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "a171-ios-pemula-submissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B8133244AE4D60091A7C9 /* a171_ios_pemula_submissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a171_ios_pemula_submissionUITests.swift; sourceTree = "<group>"; };
 		D75B8135244AE4D60091A7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D799213B245A7AAD002BF212 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		D799213D245A7AC3002BF212 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D7A391582452FB710000EB40 /* Sports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sports.json; sourceTree = "<group>"; };
 		D7A3915A2457EBD50000EB40 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D7A3915C2457EBE80000EB40 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -130,6 +140,7 @@
 			children = (
 				D75B8112244AE4D30091A7C9 /* MainController.swift */,
 				D72EF36F24593879009F5BEF /* DetailController.swift */,
+				D799213B245A7AAD002BF212 /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -146,6 +157,7 @@
 		D72EF36C245937DB009F5BEF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D72EF3742459CE26009F5BEF /* Team.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +167,8 @@
 			children = (
 				D7A3915C2457EBE80000EB40 /* BaseView.swift */,
 				D7A3915A2457EBD50000EB40 /* MainView.swift */,
+				D72EF3722459BFC8009F5BEF /* DetailView.swift */,
+				D799213D245A7AC3002BF212 /* ProfileView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -165,6 +179,14 @@
 				D72EF36824592CD6009F5BEF /* TeamTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D72EF3762459CEB5009F5BEF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D72EF3772459CEBF009F5BEF /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D75B8102244AE4D30091A7C9 = {
@@ -192,6 +214,7 @@
 		D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
 			isa = PBXGroup;
 			children = (
+				D72EF3762459CEB5009F5BEF /* Utils */,
 				D72EF3712459BD37009F5BEF /* Submission.entitlements */,
 				D75B810E244AE4D30091A7C9 /* AppDelegate.swift */,
 				D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */,
@@ -447,13 +470,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72EF37024593879009F5BEF /* DetailController.swift in Sources */,
+				D799213E245A7AC3002BF212 /* ProfileView.swift in Sources */,
+				D72EF3732459BFC8009F5BEF /* DetailView.swift in Sources */,
 				D75B8113244AE4D30091A7C9 /* MainController.swift in Sources */,
 				D75B8119244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld in Sources */,
 				D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */,
 				D7A3915D2457EBE80000EB40 /* BaseView.swift in Sources */,
 				D72EF36924592CD6009F5BEF /* TeamTableViewCell.swift in Sources */,
+				D72EF3782459CEBF009F5BEF /* Utils.swift in Sources */,
 				D7A3915B2457EBD50000EB40 /* MainView.swift in Sources */,
+				D72EF3752459CE26009F5BEF /* Team.swift in Sources */,
 				D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */,
+				D799213C245A7AAD002BF212 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +651,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y224ZS8GH;
 				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -644,6 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y224ZS8GH;
 				INFOPLIST_FILE = "a171-ios-pemula-submission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
