@@ -40,4 +40,4 @@ Copyright © 2020 **Aji Saputra Raka Siwi**
 
 [image-1]:	https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/EPL.jpg
 [image-2]:	https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/Landscape.jpg
-[image-3]:	https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/catalyst.png
+[image-3]:	https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/catalyst.jpg
