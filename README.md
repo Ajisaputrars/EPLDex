@@ -30,7 +30,7 @@ Apple has officialy released Mac Catalyst. iOS apps will share the same project 
 This project is free and open. You can participate to this project to make even more better for everybody to learn.
 
 ### **License**
-This project is licensed under the MIT license - see the [**LICENSE**]() file for details.
+This project is licensed under the MIT license - see the [**LICENSE**][3] file for details.
 
 ---- 
 
@@ -38,6 +38,7 @@ Copyright © 2020 **Aji Saputra Raka Siwi**
 
 [1]:	https://github.com/SnapKit/SnapKit
 [2]:	https://github.com/Ajisaputrars
+[3]:  https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/LICENSE
 
 
 [image-1]:	https://github.com/Ajisaputrars/Dicoding-iOS-Pemula-Submission/blob/master/EPL.jpg
