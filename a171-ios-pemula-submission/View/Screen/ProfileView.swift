@@ -12,7 +12,6 @@ class ProfileView: BaseView {
     
     lazy var profileImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "profileimage"))
-        imageView.frame = CGRect(x: 0, y: 0, width: Utils.getWidthAndHeightForImageView(view: self), height: Utils.getWidthAndHeightForImageView(view: self))
         imageView.contentMode = .scaleToFill
         imageView.layer.cornerRadius = Utils.getWidthAndHeightForImageView(view: self) / 2
         imageView.clipsToBounds = true
@@ -28,6 +27,7 @@ class ProfileView: BaseView {
     
     let profileEmailLabel: UILabel = {
         let label = UILabel()
+        label.text = "ajisaputrars@hotmail.com"
         label.textAlignment = .center
         return label
     }()

@@ -31,21 +31,12 @@ class TeamTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
-    
     func configureCell(teamList: TeamList){
         self.teamNameLabel.text = teamList.strTeam
         self.teamImageView.kf.setImage(with: URL(string: teamList.strTeamBadge!))
     }
     
-    func setupView(){
+    private func setupView(){
         self.backgroundColor = .systemBackground
         
         self.addSubview(teamImageView)

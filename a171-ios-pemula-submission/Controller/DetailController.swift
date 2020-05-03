@@ -20,5 +20,6 @@ class DetailController: UIViewController {
         
         self.detailView.configureView(teamList: self.teamDetail)
         self.title = self.teamDetail.strTeam
+        self.navigationItem.largeTitleDisplayMode = .never
     }
 }

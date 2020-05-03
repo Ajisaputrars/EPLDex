@@ -214,17 +214,17 @@
 		D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
 			isa = PBXGroup;
 			children = (
-				D72EF3762459CEB5009F5BEF /* Utils */,
-				D72EF3712459BD37009F5BEF /* Submission.entitlements */,
 				D75B810E244AE4D30091A7C9 /* AppDelegate.swift */,
 				D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */,
 				D72EF36C245937DB009F5BEF /* Model */,
 				D72EF36B245937D6009F5BEF /* View */,
 				D72EF36A245937D0009F5BEF /* Controller */,
+				D72EF3762459CEB5009F5BEF /* Utils */,
 				D75B811A244AE4D60091A7C9 /* Assets.xcassets */,
 				D75B811C244AE4D60091A7C9 /* LaunchScreen.storyboard */,
 				D75B811F244AE4D60091A7C9 /* Info.plist */,
 				D75B8117244AE4D30091A7C9 /* a171_ios_pemula_submission.xcdatamodeld */,
+				D72EF3712459BD37009F5BEF /* Submission.entitlements */,
 				D7A391582452FB710000EB40 /* Sports.json */,
 			);
 			path = "a171-ios-pemula-submission";
