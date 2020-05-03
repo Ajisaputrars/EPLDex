@@ -1,8 +1,8 @@
 # EPLDex
 
-This is a simple app to present English Premier League 2019-20 club information. There are only Main screen, Detail screen, and Profile screen. Although this app is very simple, you will learn many things in this app.
-
 ![][image-4]
+
+This is a simple app to present English Premier League 2019-20 club information. There are only Main screen, Detail screen, and Profile screen. Although this app is very simple, you will learn many things in this app.
 
 ### No Storyboard
 Some developers hate Storyboard, XIB, or NIB.  I personally hate all of them. All of user interface in this app is created using only pure Swift code. Yes! No Storyboard, no XIB or NIB, no drag-and-drop rituals. Your Mac keyboard is the only weapon to write code of the user interface.
