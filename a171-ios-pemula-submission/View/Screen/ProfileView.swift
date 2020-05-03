@@ -20,14 +20,12 @@ class ProfileView: BaseView {
     
     let profileNameLabel: UILabel = {
         let label = UILabel()
-        label.text = "Aji Saputra Raka Siwi"
         label.textAlignment = .center
         return label
     }()
     
     let profileEmailLabel: UILabel = {
         let label = UILabel()
-        label.text = "ajisaputrars@hotmail.com"
         label.textAlignment = .center
         return label
     }()
