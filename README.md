@@ -7,8 +7,10 @@ Some developers hate Storyboard, XIB, or NIB.  I personally hate all of them. Al
 
 ### Auto Layout
 Auto Layout dynamically calculates the size and position of all the views in view hierarchy, based on constraints placed on those views. In other words, Auto Layout lets you can create responsive user interface for iPhone dan iPad. The view constraint, size and position will be automatically adjusted based on screen size.
-![][image-1]
+
 Dealing with Auto Layout constraint sometimes confusing. To simplify the process, I use **_[SnapKit][1]_** library, because making constraint using it is way much easier and, in turn, make the code cleaner.
+
+![][image-1]
 ![][image-2]
 ### MVC Architecture
 MVC stands for Model-View-Controller.  What does it mean?
