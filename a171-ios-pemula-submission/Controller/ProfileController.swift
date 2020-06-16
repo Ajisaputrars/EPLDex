@@ -21,15 +21,28 @@ class ProfileController: UIViewController {
     }
     
     private func setupNavigationController(){
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 87/255, green: 22/255, blue: 99/255, alpha: 1)
-        self.navigationController?.navigationBar.barStyle = .black
-        
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 87/255, green: 22/255, blue: 99/255, alpha: 1)
+//        self.navigationController?.navigationBar.barStyle = .black
+//
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "closebutton3"), style: .plain, target: self, action: #selector(closeButtonPressed))
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        self.navigationController?.navigationBar.tintColor = .white
+//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+//        self.navigationController?.navigationBar.tintColor = .white
+//
+//        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+//        navigationController?.navigationBar.titleTextAttributes = textAttributes
         
-        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.configureWithOpaqueBackground()
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.backgroundColor = UIColor(red: 87/255, green: 22/255, blue: 99/255, alpha: 1) //.red
+        self.navigationController?.navigationBar.standardAppearance = navBarAppearance
+        self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
+        self.navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
+        self.navigationController?.navigationBar.barStyle = .black
+        self.navigationController?.navigationBar.tintColor = .white
+        self.navigationController?.navigationBar.prefersLargeTitles = false
+        
         self.title = "Profile"
     }
     

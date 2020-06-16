@@ -27,16 +27,26 @@ class MainController: UIViewController {
     }
     
     private func setupNavigationController(){
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 87/255, green: 22/255, blue: 99/255, alpha: 1)
-        self.navigationController?.navigationBar.barStyle = .black
-        
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "Group"), style: .plain, target: self, action: #selector(profileButtonPressed))
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.largeTitleDisplayMode = .automatic
+        
+        self.navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
+        self.navigationController?.navigationBar.barStyle = .black
         self.navigationController?.navigationBar.tintColor = .white
         
-        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.titleTextAttributes = textAttributes
-        self.title = "English Premier League"
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.configureWithOpaqueBackground()
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.backgroundColor = UIColor(red: 87/255, green: 22/255, blue: 99/255, alpha: 1)
+        self.navigationController?.navigationBar.standardAppearance = navBarAppearance
+        self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
+
+        
+        self.title = "Premier League"
     }
     
     @objc private func profileButtonPressed(){

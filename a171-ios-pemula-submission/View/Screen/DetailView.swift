@@ -115,5 +115,21 @@ class DetailView: BaseView {
             make.left.equalTo(teamDetailScrollView).offset(16)
             make.right.bottom.equalTo(teamDetailScrollView).offset(-16)
         }
+        
+        self.checkOrientation()
     }
+    
+    
+    
+    private func checkOrientation(){
+        if UIDevice.current.orientation.isLandscape {
+            print("Landscape")
+        } else {
+            print("Portrait")
+        }
+    }
+    
+//    override func layoutIfNeeded() {
+//        self.checkOrientation()
+//    }
 }
