@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		D72EF3732459BFC8009F5BEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3722459BFC8009F5BEF /* DetailView.swift */; };
 		D72EF3752459CE26009F5BEF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3742459CE26009F5BEF /* Team.swift */; };
 		D72EF3782459CEBF009F5BEF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF3772459CEBF009F5BEF /* Utils.swift */; };
+		D7402B24253B583000FFB6A9 /* MacApp.m in Sources */ = {isa = PBXBuildFile; fileRef = D7402B23253B583000FFB6A9 /* MacApp.m */; };
+		D7402B2F253B586800FFB6A9 /* CatalystAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7402B2E253B586800FFB6A9 /* CatalystAppManager.swift */; };
+		D7402B38253B595A00FFB6A9 /* MacApp.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = D7402B18253B581900FFB6A9 /* MacApp.bundle */; platformFilter = maccatalyst; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B810E244AE4D30091A7C9 /* AppDelegate.swift */; };
 		D75B8111244AE4D30091A7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */; };
 		D75B8113244AE4D30091A7C9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B8112244AE4D30091A7C9 /* MainController.swift */; };
@@ -31,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D7402B39253B595A00FFB6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75B8103244AE4D30091A7C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7402B17253B581900FFB6A9;
+			remoteInfo = MacApp;
+		};
 		D75B8125244AE4D60091A7C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D75B8103244AE4D30091A7C9 /* Project object */;
@@ -47,6 +57,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D7402B3B253B595A00FFB6A9 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7402B38253B595A00FFB6A9 /* MacApp.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		34929DF4D4AF8064853A3A63 /* Pods-a171-ios-pemula-submission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submission.debug.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submission/Pods-a171-ios-pemula-submission.debug.xcconfig"; sourceTree = "<group>"; };
 		36D6DEB1933A2E8394C1C069 /* Pods-a171-ios-pemula-submissionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a171-ios-pemula-submissionTests.release.xcconfig"; path = "Target Support Files/Pods-a171-ios-pemula-submissionTests/Pods-a171-ios-pemula-submissionTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +86,11 @@
 		D72EF3722459BFC8009F5BEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D72EF3742459CE26009F5BEF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		D72EF3772459CEBF009F5BEF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D7402B18253B581900FFB6A9 /* MacApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7402B1A253B581900FFB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7402B22253B583000FFB6A9 /* MacApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacApp.h; sourceTree = "<group>"; };
+		D7402B23253B583000FFB6A9 /* MacApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacApp.m; sourceTree = "<group>"; };
+		D7402B2E253B586800FFB6A9 /* CatalystAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalystAppManager.swift; sourceTree = "<group>"; };
 		D75B810B244AE4D30091A7C9 /* Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B810E244AE4D30091A7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D7402B15253B581900FFB6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D75B8108244AE4D30091A7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,12 +225,31 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		D7402B19253B581900FFB6A9 /* MacApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7402B1A253B581900FFB6A9 /* Info.plist */,
+				D7402B22253B583000FFB6A9 /* MacApp.h */,
+				D7402B23253B583000FFB6A9 /* MacApp.m */,
+			);
+			path = MacApp;
+			sourceTree = "<group>";
+		};
+		D7402B2D253B584500FFB6A9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D7402B2E253B586800FFB6A9 /* CatalystAppManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		D75B8102244AE4D30091A7C9 = {
 			isa = PBXGroup;
 			children = (
 				D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */,
 				D75B8127244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */,
 				D75B8132244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */,
+				D7402B19253B581900FFB6A9 /* MacApp */,
 				D75B810C244AE4D30091A7C9 /* Products */,
 				4E3C2BD462099D7E2CC33F0C /* Pods */,
 				4A68F1B2173E90AE85853F5A /* Frameworks */,
@@ -207,6 +262,7 @@
 				D75B810B244AE4D30091A7C9 /* Submission.app */,
 				D75B8124244AE4D60091A7C9 /* a171-ios-pemula-submissionTests.xctest */,
 				D75B812F244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests.xctest */,
+				D7402B18253B581900FFB6A9 /* MacApp.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,6 +270,7 @@
 		D75B810D244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
 			isa = PBXGroup;
 			children = (
+				D7402B2D253B584500FFB6A9 /* Helper */,
 				D75B810E244AE4D30091A7C9 /* AppDelegate.swift */,
 				D75B8110244AE4D30091A7C9 /* SceneDelegate.swift */,
 				D72EF36C245937DB009F5BEF /* Model */,
@@ -251,6 +308,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D7402B17253B581900FFB6A9 /* MacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7402B1D253B581900FFB6A9 /* Build configuration list for PBXNativeTarget "MacApp" */;
+			buildPhases = (
+				D7402B14253B581900FFB6A9 /* Sources */,
+				D7402B15253B581900FFB6A9 /* Frameworks */,
+				D7402B16253B581900FFB6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacApp;
+			productName = MacApp;
+			productReference = D7402B18253B581900FFB6A9 /* MacApp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D75B8138244AE4D60091A7C9 /* Build configuration list for PBXNativeTarget "a171-ios-pemula-submission" */;
@@ -260,10 +334,12 @@
 				D75B8108244AE4D30091A7C9 /* Frameworks */,
 				D75B8109244AE4D30091A7C9 /* Resources */,
 				6CBA388CB76A5624BB7F5F4A /* [CP] Embed Pods Frameworks */,
+				D7402B3B253B595A00FFB6A9 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D7402B3A253B595A00FFB6A9 /* PBXTargetDependency */,
 			);
 			name = "a171-ios-pemula-submission";
 			productName = "a171-ios-pemula-submission";
@@ -318,6 +394,9 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Aji Saputra Raka Siwi";
 				TargetAttributes = {
+					D7402B17253B581900FFB6A9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					D75B810A244AE4D30091A7C9 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -347,11 +426,19 @@
 				D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */,
 				D75B8123244AE4D60091A7C9 /* a171-ios-pemula-submissionTests */,
 				D75B812E244AE4D60091A7C9 /* a171-ios-pemula-submissionUITests */,
+				D7402B17253B581900FFB6A9 /* MacApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D7402B16253B581900FFB6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D75B8109244AE4D30091A7C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,6 +552,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D7402B14253B581900FFB6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7402B24253B583000FFB6A9 /* MacApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D75B8107244AE4D30091A7C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +572,7 @@
 				D75B810F244AE4D30091A7C9 /* AppDelegate.swift in Sources */,
 				D7A3915D2457EBE80000EB40 /* BaseView.swift in Sources */,
 				D72EF36924592CD6009F5BEF /* TeamTableViewCell.swift in Sources */,
+				D7402B2F253B586800FFB6A9 /* CatalystAppManager.swift in Sources */,
 				D72EF3782459CEBF009F5BEF /* Utils.swift in Sources */,
 				D7A3915B2457EBD50000EB40 /* MainView.swift in Sources */,
 				D72EF3752459CE26009F5BEF /* Team.swift in Sources */,
@@ -504,6 +600,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D7402B3A253B595A00FFB6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = maccatalyst;
+			target = D7402B17253B581900FFB6A9 /* MacApp */;
+			targetProxy = D7402B39253B595A00FFB6A9 /* PBXContainerItemProxy */;
+		};
 		D75B8126244AE4D60091A7C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D75B810A244AE4D30091A7C9 /* a171-ios-pemula-submission */;
@@ -528,6 +630,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D7402B1B253B581900FFB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = MacApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajisaputrars.MacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D7402B1C253B581900FFB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9Y224ZS8GH;
+				INFOPLIST_FILE = MacApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajisaputrars.MacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		D75B8136244AE4D60091A7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -777,6 +915,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D7402B1D253B581900FFB6A9 /* Build configuration list for PBXNativeTarget "MacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7402B1B253B581900FFB6A9 /* Debug */,
+				D7402B1C253B581900FFB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D75B8106244AE4D30091A7C9 /* Build configuration list for PBXProject "a171-ios-pemula-submission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

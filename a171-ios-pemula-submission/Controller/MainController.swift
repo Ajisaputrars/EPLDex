@@ -11,6 +11,10 @@ import Kingfisher
 
 class MainController: UIViewController {
     
+    #if targetEnvironment(macCatalyst)
+    var hasDisabledZoom = false
+    #endif
+    
     private var mainView: MainView!
     private var teams: Team!
         
@@ -18,12 +22,30 @@ class MainController: UIViewController {
         super.viewDidLoad()
         self.mainView = MainView(frame: self.view.frame)
         self.view = self.mainView
-                
+        
+//        #if targetEnvironment(macCatalyst)
+//        if !hasDisabledZoom {
+//            hasDisabledZoom = true
+//            CatalystAppManager.configureMacAppWindow()
+//        }
+//        #endif
+//        
         self.getTeams()
         self.setupNavigationController()
         
         self.mainView.teamTableView.delegate = self
         self.mainView.teamTableView.dataSource = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        #if targetEnvironment(macCatalyst)
+        if !hasDisabledZoom {
+            hasDisabledZoom = true
+            CatalystAppManager.configureMacAppWindow()
+        }
+        #endif
     }
     
     private func setupNavigationController(){
